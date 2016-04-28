@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        />
+    <Button
+        android:id="@+id/button_add_picture"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:maxHeight="350dp"
+        android:text="点我插图"
+        android:layout_above="@id/textView"
+        />
+    <com.czm.xcimageandtexteditor.XCImageAndTextEditor
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:gravity="start"
+        android:hint="caizhiming"
+        android:elegantTextHeight="true"
+        android:layout_above="@id/button_add_picture"
+        />
+
+</RelativeLayout>
