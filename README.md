@@ -1,5 +1,6 @@
 # XCImageAndTextEditor
-A Mix Picture And Text Editor-使用SpannableString And ImageSpan 实现的图文混排编辑器
+A Mix Picture And Text Editor-使用SpannableString And ImageSpan 实现的图文混排编辑器。
+
 (下载Demo编译运行前：请在自己手机对应的包名的files/DCIM 目录下 放入对应的 5张 jpg图片，否则插入图片会报错)
 
 效果图如下：
