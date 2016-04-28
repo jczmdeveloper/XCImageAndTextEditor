@@ -13,22 +13,9 @@ A Mix Picture And Text Editor-使用SpannableString And ImageSpan 实现的图�
 
 使用方法示例如下：
 
-package com.czm.demo;
-
-import android.os.Bundle;
-import android.os.Environment;
-import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
-import android.text.TextWatcher;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.TextView;
-
-import com.czm.xcimageandtexteditor.R;
-import com.czm.xcimageandtexteditor.XCImageAndTextEditor;
 
 public class MainActivity extends AppCompatActivity {
+
     private XCImageAndTextEditor mEditText;
     private Button mButton;
     private TextView mTextView;
